@@ -1,0 +1,14 @@
+{
+  "name": "rankradar-seo",
+  "displayName": "RankRadar SEO",
+  "version": "0.3.0",
+  "description": "Evidence-backed SEO audits of public websites with mobile and desktop PageSpeed results, transparent scores, and prioritized Markdown/PDF reports.",
+  "author": {
+    "name": "Stephen J. Kinzey, Ph.D.",
+    "email": "steve@sk-america.com"
+  },
+  "homepage": "https://www.rankradarseo.com/integrations",
+  "license": "Apache-2.0",
+  "icon": "./assets/radar.png",
+  "keywords": ["seo", "pagespeed", "audit", "lighthouse", "reports"]
+}

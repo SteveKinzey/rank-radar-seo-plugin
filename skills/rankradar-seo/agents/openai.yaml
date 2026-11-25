@@ -1,0 +1,7 @@
+interface:
+  display_name: RankRadar SEO
+  short_description: SEO scores, PageSpeed tests, and actionable reports
+  default_prompt: Use $rankradar-seo to audit this website and create scored Markdown
+    and PDF reports with mobile and desktop PageSpeed results.
+policy:
+  allow_implicit_invocation: true

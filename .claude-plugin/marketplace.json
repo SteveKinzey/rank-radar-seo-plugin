@@ -1,0 +1,15 @@
+{
+  "name": "rankradar",
+  "description": "RankRadar SEO plugins by Stephen J. Kinzey, Ph.D.",
+  "owner": {
+    "name": "Stephen J. Kinzey, Ph.D.",
+    "email": "steve@sk-america.com"
+  },
+  "plugins": [
+    {
+      "name": "rankradar-seo",
+      "source": "./",
+      "description": "Evidence-backed SEO audits of public websites with mobile and desktop PageSpeed results, transparent scores, and prioritized Markdown/PDF reports."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "email": "steve@sk-america.com",
+    "name": "Stephen J. Kinzey, Ph.D."
+  },
+  "description": "Turn a website URL into an evidence-backed SEO audit with transparent scores, mobile/desktop PageSpeed results where tools permit, and prioritized Markdown/PDF reports. Includes setup guidance and a standard-library PageSpeed helper. Uses the host's available tools; it does not bundle a remote crawler or a local Command Code bridge.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [],
+        "composerIcon": "./assets/radar.png",
+        "defaultPrompt": [
+          "Run an SEO report on my website with mobile and desktop PageSpeed tests.",
+          "Review my existing SEO report and prioritize improvements.",
+          "Help me get started with RankRadar SEO."
+        ],
+        "developerName": "Stephen J. Kinzey, Ph.D.",
+        "displayName": "RankRadar SEO",
+        "logo": "./assets/radar.png",
+        "longDescription": "Turn a website URL into an evidence-backed SEO audit with transparent scores, mobile/desktop PageSpeed results where tools permit, and prioritized Markdown/PDF reports. Includes setup guidance and a standard-library PageSpeed helper. Uses the host's available tools; it does not bundle a remote crawler or a local Command Code bridge.",
+        "shortDescription": "Spot issues. Improve search.",
+        "category": "Data & Analytics",
+        "websiteURL": "https://www.rankradarseo.com/integrations",
+        "supportURL": "https://www.rankradarseo.com/support",
+        "privacyPolicyURL": "https://www.rankradarseo.com/privacy",
+        "termsOfServiceURL": "https://www.rankradarseo.com/terms"
+      },
+      "onboardingSkill": "./skills/rankradar-get-started/SKILL.md",
+      "review": {
+        "prompts": [
+          "Run an SEO report on my website with mobile and desktop PageSpeed tests.",
+          "Review my existing SEO report and prioritize improvements.",
+          "Help me get started with RankRadar SEO."
+        ],
+        "commerce": false
+      },
+      "publication": {
+        "release_notes": "Restructures the audit skill into a short workflow with PageSpeed and scoring references, adds evidence-coverage scoring rules, and hardens the PageSpeed helper (credential redaction, response validation, no overwriting of saved evidence).",
+        "countries": []
+      }
+    }
+  },
+  "name": "rankradar-seo",
+  "version": "0.3.0"
+}

@@ -1,0 +1,35 @@
+{
+  "interface": {
+    "capabilities": [],
+    "composerIcon": "./assets/radar.png",
+    "defaultPrompt": [
+      "Run an SEO report on my website with mobile and desktop PageSpeed tests.",
+      "Review my existing SEO report and prioritize improvements.",
+      "Help me get started with RankRadar SEO."
+    ],
+    "developerName": "Stephen J. Kinzey, Ph.D.",
+    "displayName": "RankRadar SEO",
+    "logo": "./assets/radar.png",
+    "longDescription": "Turn a website URL into an evidence-backed SEO audit with transparent scores, mobile/desktop PageSpeed results where tools permit, and prioritized Markdown/PDF reports. Includes setup guidance and a standard-library PageSpeed helper. Uses the host's available tools; it does not bundle a remote crawler or a local Command Code bridge.",
+    "shortDescription": "Spot issues. Improve search.",
+    "category": "Data & Analytics",
+    "websiteURL": "https://www.rankradarseo.com/integrations",
+    "supportURL": "https://www.rankradarseo.com/support",
+    "privacyPolicyURL": "https://www.rankradarseo.com/privacy",
+    "termsOfServiceURL": "https://www.rankradarseo.com/terms"
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/rankradar-get-started/SKILL.md"
+    }
+  },
+  "name": "rankradar-seo",
+  "version": "0.3.0",
+  "description": "Turn a website URL into an evidence-backed SEO audit with transparent scores, mobile/desktop PageSpeed results where tools permit, and prioritized Markdown/PDF reports. Includes setup guidance and a standard-library PageSpeed helper. Uses the host's available tools; it does not bundle a remote crawler or a local Command Code bridge.",
+  "author": {
+    "email": "steve@sk-america.com",
+    "name": "Stephen J. Kinzey, Ph.D."
+  },
+  "keywords": [],
+  "skills": "./skills"
+}

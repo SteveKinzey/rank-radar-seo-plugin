@@ -1,0 +1,4 @@
+interface:
+  display_name: Start RankRadar SEO
+  short_description: Start an SEO audit and understand available features
+  default_prompt: Use $rankradar-get-started to help me run my first SEO audit.
